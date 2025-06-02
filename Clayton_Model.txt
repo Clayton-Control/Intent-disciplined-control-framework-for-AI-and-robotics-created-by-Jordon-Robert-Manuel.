@@ -1,0 +1,13 @@
+# Clayton Control Model
+# Created by Jordon Robert Manuel
+# Licensed under PolyForm Noncommercial + CLAYTON_USE.md
+# Rhythm-critical system — unauthorized commercial use prohibited
+
+
+Intent Arc Control Model — Summary
+
+delta(t) = r(t) - r_expected(t)
+Correction occurs only at apex:
+  when d(r)/dt ≈ 0 and |d²r/dt²| < ε
+Trust scalar decays from stored deviation
+Correction is gated by R(t) × B(t) > θ_sync
